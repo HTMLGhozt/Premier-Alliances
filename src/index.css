@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+button {
+  background-color: #3b5b7f;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  min-width: 110px;
+}
+h4 {
+  /* c 75 m 58 y 60 k 17 355955 */
+  color: #26403d;
+  text-transform: uppercase;
+}
+h3 {
+  color: rgb(148, 130, 10)
+}
