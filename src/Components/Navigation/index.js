@@ -1,7 +1,12 @@
 import React from 'react';
 import './navigation.css';
 export default ({ pages }) => (
-  <nav class="navigation">{ pages.map(({ title, color }) => (
-    <a href={ `#${title}` } style={{ color }}>{ title }</a>
+  <nav className="navigation">{ pages.map(({ title, color, active }, index) => (
+    <a
+      key={ 'nav' + index }
+      href={ `#${title}` }
+      style={{ color }}
+      className={ active ? 'active-navigation' : null }
+    >{ title }</a>
   ))}</nav>
 );
