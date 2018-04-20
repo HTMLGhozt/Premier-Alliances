@@ -42,7 +42,7 @@ export default class Timeline extends Component {
             );
           }
         })}
-        <hr className="line" />
+        {/* <hr className="line" /> */}
         <span onClick={() => this.handleTimelineScroll('right')} className="arrow arrow--right">{'>'}</span>
       </div>
     );

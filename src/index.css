@@ -11,7 +11,8 @@ button {
   outline: none;
   border: none;
   border-radius: 10px;
-  min-width: 110px;
+  font-size: 20px;
+  min-width: 130px;
 }
 h4 {
   /* c 75 m 58 y 60 k 17 355955 */
@@ -19,5 +20,5 @@ h4 {
   text-transform: uppercase;
 }
 h3 {
-  color: rgb(148, 130, 10)
+  color: rgb(187, 166, 31)
 }
