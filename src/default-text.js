@@ -72,8 +72,31 @@ export const partnersText = `
     employment, training or educational opportunities, please contact us.
   </p>`;
 
-// module.exports = {
-//   employmentText,
-//   communityText,
-//   partnersText,
-// };
+export const historyText = `<p>
+    Premier Alliances, Inc. has been serving and supporting the communities of Cochise County and the
+    surrounding areas since 1962. Originally founded in Bisbee by concerned community members as a
+    means to provide educational opportunities to children with developmental disabilities, the program
+    grew, serving both adults and children with disabilities through educational and vocational
+    programs, becoming the Cochise County Association for the Handicapped in 1975. In 1995,
+    CCAH won the groundskeeping contract for Fort Huachuca and was later renamed. Today,
+    Premier Alliances continues to provide gainful employment and life skills development opportunities
+    for a historically underserved population, both on the Fort Huachuca Army Installation, where we
+    also maintain the historic Old Post Cemetery, at the Brian A. Terry Border Patrol Station near
+    Bisbee, where our employees provide custodial services, and at the Print and Stitch custom printing
+    and embroidery shop in Bisbee.
+  </p>
+  <p>
+    Premier Alliances, Inc. secures federal contracts reserved for the disabled workforce by the
+    AbilityOne Program through our partnership with the SourceAmerica national nonprofit network,
+    while continuing to look for ways to expand our services through local enterprises, which result
+    in more opportunities for the population we serve.
+  </p>
+  <hr />
+  <p>
+    Beyond our services to our employees, Premier Alliances, Inc. believes that community outreach
+    and partnerships are the most effective ways to create a community that is inclusive and full of
+    opportunities, not obstacles, for people with disabilities. We continuously look for ways to work
+    closely with local governments, private businesses, our nonprofit partners and other service
+    organizations on projects, events, activities and programs which align with our mission,
+    “Improving the lives of people with disabilities.”
+  </p>`;

@@ -6,7 +6,7 @@ export default class Page extends Component {
   componentDidMount() {
     const top = this.ref.offsetTop;
     // console.log('props', this.props)
-    this.props.addPosition(top, this.props.index);
+    this.props.addPosition(top - 15, this.props.index);
   }
   render() {
     const { title, text, color: backgroundColor, i } = this.props;
@@ -14,7 +14,7 @@ export default class Page extends Component {
       <Fragment>
         <section className="page" style={{ backgroundColor }} index={i} id={title} ref={node => this.ref = node} >
           <h1 className="page__title">{title === 'Employment' ? title + ' Opportunities': title}</h1>
-          <content className="page__content" dangerouslySetInnerHTML={{ __html: text }}></content>
+          <content className={`page__content ${title === 'History' ? 'history': ''}`} dangerouslySetInnerHTML={{ __html: text }}></content>
         </section>
         {title === 'History' ? <Timeline /> : null}
       </Fragment>

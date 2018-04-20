@@ -16,7 +16,16 @@
   font-size: 31px;
 }
 .page__content {
-  max-width: 750px;
+  max-width: 740px;
   font-size: 20px;
   text-align: center;
+}
+.history p {
+  margin-top: 0;
+  text-align: justify;
+  word-spacing: 1.75px;
+}
+.history {
+  column-count: 2;
+  column-gap: 30px;
 }

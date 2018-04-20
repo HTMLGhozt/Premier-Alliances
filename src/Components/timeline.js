@@ -12,24 +12,38 @@ export default class Timeline extends Component {
         { date: 1985, text: 'Office on Naco Highway in Bisbee purchased' },
         { date: 1995, text: 'Contract for grounds maintenance on Fort Huachuca obtained' },
         { date: 2001, text: 'Janitorial services for the Brian A. Terry Border Patrol Station begin' },
-        // { date: 2011, text: 'New facilities on Naco Highway are completed' },
-        // { date: 2014, text: 'CCAH is renamed Premier Alliances, Inc.' },
-        // { date: 2017, text: 'Premier Alliances purchases Print and Stitch' },
+        { date: 2011, text: 'New facilities on Naco Highway are completed' },
+        { date: 2014, text: 'CCAH is renamed Premier Alliances, Inc.' },
+        { date: 2017, text: 'Premier Alliances purchases Print and Stitch' },
       ],
+      start: 0,
+      show: 6,
     };
+    this.handleTimelineScroll = this.handleTimelineScroll.bind(this);
+  }
+  handleTimelineScroll(direction) {
+    if (direction === 'left' && this.state.start > 0) {
+      this.setState(({ start }) => ({ start: --start }));
+    } else if (direction === 'right' && (this.state.start + this.state.show) < this.state.timeline.length) {
+      this.setState(({ start }) => ({ start: ++start }));
+    }
   }
   render() {
     return (
       <div className="timeline">
-        {this.state.timeline.map(({date, text}) => {
-          return (
-            <div key={date + 'div'}>
-              <h4 key={date + 'date'}>{date}</h4>
-              <p key={date + 'paragraph'}>{text}</p>
-            </div>
-          );
+        <span onClick={() => this.handleTimelineScroll('left')} className="arrow arrow--left">{'<'}</span>
+        {this.state.timeline.map(({date, text}, index) => {
+          if (index < this.state.show + this.state.start && index >= this.state.start) {
+            return (
+              <div key={date + 'div'}>
+                <h4 key={date + 'date'}>{date}</h4>
+                <p key={date + 'paragraph'}>{text}</p>
+              </div>
+            );
+          }
         })}
         <hr className="line" />
+        <span onClick={() => this.handleTimelineScroll('right')} className="arrow arrow--right">{'>'}</span>
       </div>
     );
   }
