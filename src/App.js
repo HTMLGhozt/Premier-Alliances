@@ -7,7 +7,7 @@ import Navigation from './Components/Navigation';
 import { employmentText, communityText, partnersText, historyText } from './default-text.js';
 
 const pages = [
-  { title: 'History', text: historyText, color: 'rgb(120, 41, 28)', active: false },
+  { title: 'History', text: '', color: 'rgb(120, 41, 28)', active: false },
   { title: 'Employment', text: employmentText, color: 'rgb(173, 107, 8)', active: false },
   { title: 'Community', text: communityText, color: 'rgb(148, 130, 10)', active: false },
   { title: 'Partners', text: partnersText, color: 'rgb(59, 91, 127)', active: false },
