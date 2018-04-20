@@ -1,0 +1,28 @@
+.timeline {
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+  position: relative;
+  /* height: 300px; */
+}
+.timeline > div {
+  margin: 17px;
+}
+.timeline h4 {
+  text-align: center;
+}
+.timeline p {
+  font-size: 12px;
+  text-align: center;
+  color: rgb(120, 41, 28);
+  font-weight: bold;
+  max-width: 150px;
+}
+.line {
+  /* transform: rotate(90deg); */
+  width: 93%;
+  height: 2px;
+  background-color: #666;
+  top: 40%;
+  position:absolute;
+}

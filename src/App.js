@@ -37,7 +37,6 @@ class App extends Component {
     }
   }
   render() {
-    // window.addEventListener('onscroll', this.handleScroll);
     const { pages, showNavigation } = this.state;
     return (
       <Fragment>

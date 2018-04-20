@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import './header.css';
+import Image from './logo.svg';
 
 const populateClassNames = index => { 
   return ([
@@ -20,16 +21,19 @@ export default class Header extends Component {
               key={`title${index}`}
               className={populateClassNames(index)}
             >
-              <h1
-                key={`heading${index}`}
-                className="main__title"
-                style={{ color }}
-              >
-              {heading}
-              </h1>
+              <a href={`#${heading}`}>
+                <h1
+                  key={`heading${index}`}
+                  className="main__title"
+                  style={{ color }}
+                >
+                {heading}
+                </h1>
+              </a>
             </div>
           );
         }) }
+        <img id="logo" src={ require('./logo.svg') } alt="premier logo"/> 
       </Fragment>
     );
   }
