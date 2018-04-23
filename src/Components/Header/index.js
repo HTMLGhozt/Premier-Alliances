@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import './header.css';
-import Image from './logo.svg';
+// import Image from './logo.svg';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const populateClassNames = index => { 
   return ([
@@ -21,15 +22,15 @@ export default class Header extends Component {
               key={`title${index}`}
               className={populateClassNames(index)}
             >
-              <a href={`#${heading}`}>
-                <h1
-                  key={`heading${index}`}
+                <h1>
+                <AnchorLink
                   className="main__title"
                   style={{ color }}
+                  href={`#${heading}`}
                 >
-                {heading}
+                  {heading}
+                </AnchorLink>
                 </h1>
-              </a>
             </div>
           );
         }) }

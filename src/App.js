@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import HeaderFooter from './Components/Header/header-footer.js';
 import Page from './Components/Pages';
 import Navigation from './Components/Navigation';
+import Footer from './Components/Footer';
 import { employmentText, communityText, partnersText, historyText } from './default-text.js';
 
 const pages = [
@@ -87,6 +88,7 @@ class App extends Component {
             />
           )
         })}
+        <Footer />
       </Fragment>
     );
   }

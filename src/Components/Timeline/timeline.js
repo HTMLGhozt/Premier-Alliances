@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './timeline.css';
+import TimelineItem from './timelineItem';
 
 export default class Timeline extends Component {
   constructor (props) {
@@ -32,13 +33,10 @@ export default class Timeline extends Component {
     return (
       <div className="timeline">
         <span onClick={() => this.handleTimelineScroll('left')} className="arrow arrow--left">{'<'}</span>
-        {this.state.timeline.map(({date, text}, index) => {
+        {this.state.timeline.map((item, index) => {
           if (index < this.state.show + this.state.start && index >= this.state.start) {
             return (
-              <div key={date + 'div'}>
-                <h4 key={date + 'date'}>{date}</h4>
-                <p key={date + 'paragraph'}>{text}</p>
-              </div>
+              <TimelineItem { ...item } />
             );
           }
         })}

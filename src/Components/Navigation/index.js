@@ -1,12 +1,14 @@
 import React from 'react';
 import './navigation.css';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+
 export default ({ pages }) => (
   <nav className="navigation">{ pages.map(({ title, color, active }, index) => (
-    <a
+    <AnchorLink
       key={ 'nav' + index }
       href={ `#${title}` }
       style={{ color }}
       className={ active ? 'active-navigation' : null }
-    >{ title }</a>
+    >{ title }</AnchorLink>
   ))}</nav>
 );

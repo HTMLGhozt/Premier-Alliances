@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.css'
+import FontAwesome from 'react-fontawesome';
 
 export default () => (
   <div className="main__footer">
@@ -9,6 +10,6 @@ export default () => (
       <p>Improving the lives of people with disabilities.</p>
       <a href="tel:520-335-0373">520 335 0373</a>
     </div>
-    <span>icon placeholder</span>
+    <span><FontAwesome name="facebook" /> <FontAwesome name="instagram" /> <FontAwesome name="linkedin-in" /></span>
   </div>
 );
