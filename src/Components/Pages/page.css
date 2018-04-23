@@ -31,3 +31,10 @@
   column-count: 2;
   column-gap: 30px;
 }
+.page__content > h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.page.Partners {
+  min-height: 80vh;
+}

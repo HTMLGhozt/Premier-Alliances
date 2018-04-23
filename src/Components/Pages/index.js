@@ -11,7 +11,7 @@ export default class Page extends Component {
     const { title, text, color: backgroundColor, i } = this.props;
     return (
       <Fragment>
-        <section className="page" style={{ backgroundColor }} index={i} id={title} ref={node => this.ref = node} >
+        <section className={"page" + ' ' + title} style={{ backgroundColor }} index={i} id={title} ref={node => this.ref = node} >
           <h1 className="page__title">{title === 'Employment' ? title + ' Opportunities': title}</h1>
           <content className={`page__content ${title === 'History' ? 'history': ''}`} dangerouslySetInnerHTML={{ __html: text }}></content>
         </section>

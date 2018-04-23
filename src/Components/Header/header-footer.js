@@ -10,6 +10,10 @@ export default () => (
       <p>Improving the lives of people with disabilities.</p>
       <a href="tel:520-335-0373">520 335 0373</a>
     </div>
-    <span><FontAwesome name="facebook" /> <FontAwesome name="instagram" /> <FontAwesome name="linkedin-in" /></span>
+    <span className="logos">
+      <i class="fab fa-facebook-square fa-3x"></i>
+      <i class="fab fa-twitter-square fa-3x"></i>
+      <i class="fab fa-linkedin fa-3x"></i>
+    </span>
   </div>
 );

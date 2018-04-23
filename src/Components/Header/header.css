@@ -63,3 +63,10 @@
   color: dimgray;
   /* test */
 }
+.logos i {
+  padding: 4px;
+  color: gray;
+}
+.logos {
+  width: 150px;
+}

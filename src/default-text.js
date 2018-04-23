@@ -26,11 +26,10 @@ export const employmentText = `
 
 export const communityText = `
   <p>
-    Premier Alliances Inc., in partnership with SourceAmerica®, 
-    the AbilityOne® Program, and the Federal government, provides fulfilling 
+    Premier Alliances Inc., in partnership with SourceAmerica<small><sup>®</sup></small>, 
+    the AbilityOne<small><sup>®</sup></small> Program, and the Federal government, provides fulfilling 
     employment opportunities for people with significant disabilities.
   <p>
-  <br/>
   <p>
     In addition, Premier Alliances Inc. gives job placement preference 
     to individuals with documented disabilities.
@@ -40,12 +39,12 @@ export const communityText = `
     updating the web site with new information.
   </p>
 
-  <h4>Contact our office</h4>
+  <button>contact us</button>
   <p> 
     to find out how you can be a part of <br/>
     the Premier Alliances Team.
   </p>
-  <h5>AbilityOne® Program</h5>
+  <h5>AbilityOne<small><sup>®</sup></small> Program</h5>
   <p>
     The AbilityOne Program is a Federal initiative to help people who are blind 
     or have other significant disabilities find employment by working within a 
