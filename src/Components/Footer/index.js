@@ -12,6 +12,7 @@ export default props => (
   <footer style={styles} className="footer">
     <div style={{display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-end'}}>
       <img style={{ height: '100%', flex: 0, paddingLeft: '20px'}} src={ require('./logo.svg') } alt="premier logo"/>
+      {/* <img style={{marginBottom: '8px'}} src={require('../../PA_typeset.svg')} /> */}
       <h1 style={{ flex: 1, marginBottom: '8px', textTransform: 'uppercase', color: 'rgb(120, 41, 28)', fontSize: '1.3em'}}>Premier Alliances, Inc.</h1>
     </div>
     <div>

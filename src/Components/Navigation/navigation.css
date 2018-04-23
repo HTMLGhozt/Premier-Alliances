@@ -26,7 +26,7 @@
   padding: 10px 20px;
   position: relative;
 }
-
+/* 
 .navigation > a:after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
@@ -46,4 +46,14 @@
 .navigation > .active-navigation:after {
   width: 100%;
   left: 0;
+} */
+.navigation > a {
+  opacity: .55;
+  transition: all 0.3s ease 0s;
+}
+.navigation > a:hover {
+  opacity: 1;
+}
+.navigation > .active-navigation {
+  opacity: 1;
 }
