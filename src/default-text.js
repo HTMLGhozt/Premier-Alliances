@@ -16,12 +16,21 @@ export const employmentText = `
     <br/>
     <div style="text-align: left">
       <h4>Maintenance Technitian</h4>
-      <p>This is example text that will be set in the actual page manager on WordPress</p>
+      <span>This is example text that will be set in the actual page manager on WordPress</span>
       <h4>Grounds Keeper</h4>
-      <p>Continued examples</p>
+      <span>Continued examples</span>
+      <br/>
       <br/>
       <button>Apply</button>
-    </div>`;
+      <br/>
+        <small style="font-size: 16px; color: #26403d; font-weight: bold">Please complete the online application by clicking APPLY above.</small>
+      <br/>
+      <br/>
+      <hr/>
+    </div>
+    <p>Premier Alliances Inc. is proud to be an Equal Opportunity/Affirmative Action Employer. 
+Qualified females, minorities, and veterans are encouraged to apply.<br/></br/>
+Premier Alliances, Inc. gives job placement preference to individuals with documented disabilities.</p>`;
 
 export const communityText = `
   <p>
