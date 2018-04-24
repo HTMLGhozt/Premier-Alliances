@@ -70,3 +70,26 @@
 .logos {
   width: 150px;
 }
+/* Make it a marquee */
+.marquee {
+  width: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  animation: marquee 20s linear infinite;
+  position: absolute;
+  z-index: 999;
+  bottom: 250px;
+  color: dimgray
+}
+
+.marquee:hover {
+  animation-play-state: paused
+}
+
+/* Make it move */
+@keyframes marquee {
+  0%   { text-indent: 27.5em }
+  100% { text-indent: -60em }
+}

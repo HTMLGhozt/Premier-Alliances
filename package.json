@@ -4,11 +4,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "marquee-react-dwyer": "^5.7.9",
     "react": "^16.3.1",
     "react-anchor-link-smooth-scroll": "^1.0.6",
     "react-dom": "^16.3.1",
     "react-fontawesome": "^1.6.1",
-    "react-scripts": "1.1.4"
+    "react-marquee": "^0.1.1",
+    "react-scripts": "1.1.4",
+    "react-text-marquee": "^1.0.1"
   },
   "scripts": {
     "predeploy": "yarn run build",

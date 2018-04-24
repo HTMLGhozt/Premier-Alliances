@@ -14,7 +14,6 @@ export const employmentText = `
       employees at this time. Premier Alliances does not accept applications unless we are actively seeking to fill a position.
     </p>
     <br/>
-    <br/>
     <div style="text-align: left">
       <h4>Maintenance Technitian</h4>
       <p>This is example text that will be set in the actual page manager on WordPress</p>

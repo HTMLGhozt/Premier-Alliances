@@ -7,7 +7,7 @@ export default ({ pages }) => (
     <AnchorLink
       key={ 'nav' + index }
       href={ `#${title}` }
-      style={{ color }}
+      style={{ color: active ? color : 'gray' }}
       className={ active ? 'active-navigation' : null }
     >{ title }</AnchorLink>
   ))}</nav>

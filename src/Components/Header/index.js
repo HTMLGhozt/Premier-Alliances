@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import './header.css';
-// import Image from './logo.svg';
+// import Marquee3k from 'marquee3000';
+import Marquee from 'react-text-marquee';
+// import Marquee from 'marquee-react-dwyer';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const populateClassNames = index => { 
@@ -34,7 +36,9 @@ export default class Header extends Component {
             </div>
           );
         }) }
-        <img id="logo" src={ require('./logo.svg') } alt="premier logo"/> 
+        <img id="logo" src={ require('./logo.svg') } alt="premier logo"/>
+        {/* <Marquee IsRandom={'false'} TimeToChange={'5'} Size={'h3'} Index0={'test'} Index1={'test2'} index2={'another test'} NumberOfOptions={'3'} TimeToCross={10000} Color={'grey'} /> */}
+        <div className="marquee">Move to Bisbee Location Scheduled • Purchase of Print & Stitch Positive for All • New Graphic Designer Hired</div>
       </Fragment>
     );
   }

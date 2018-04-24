@@ -23,6 +23,8 @@ h4 {
   /* c 75 m 58 y 60 k 17 355955 */
   color: #26403d;
   text-transform: uppercase;
+  margin-bottom: 3px;
+  font-size: 23px;
 }
 h3 {
   color: rgb(187, 166, 31)
