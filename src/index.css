@@ -8,6 +8,9 @@ body {
   padding: 0;
   font-family:  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
+p {
+  font-weight: 100;
+}
 button {
   background-color: #3b5b7f;
   color: white;
@@ -23,9 +26,9 @@ h4 {
   /* c 75 m 58 y 60 k 17 355955 */
   color: #26403d;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 1000;
   margin-bottom: 3px;
-  font-size: 23px;
+  font-size: 20px;
 }
 h3 {
   color: rgb(187, 166, 31)

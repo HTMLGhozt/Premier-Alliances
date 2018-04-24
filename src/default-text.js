@@ -15,13 +15,13 @@ export const employmentText = `
     </p>
     <br/>
     <div style="text-align: left">
-      <a style="text-decoration: none" href="#"><h4>Maintenance Technician</h4></a>
+      <a style="text-decoration: none" href="#"><b><h4>Maintenance Technician</h4></b></a>
       <a style="text-decoration: none" href="#"><h4>Grounds Keeper</h4></a>
       <br/>
       <br/>
       <button>Apply</button>
       <br/>
-        <small style="font-size: 16px; color: #26403d; font-weight: bold">Please complete the online application by clicking APPLY above.</small>
+        <small style="font-size: 16px; color: #26403d;">Please complete the online application by clicking APPLY above.</small>
       <br/>
       <br/>
       <hr/>
