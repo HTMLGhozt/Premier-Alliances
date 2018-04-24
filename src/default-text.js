@@ -21,12 +21,12 @@ export const employmentText = `
       <br/>
       <button>Apply</button>
       <br/>
-        <small style="font-size: 16px; color: #26403d;">Please complete the online application by clicking APPLY above.</small>
+        <small style="font-size: 16px; color: #26403d; font-weight: bold">Please complete the online application by clicking APPLY above.</small>
       <br/>
       <br/>
       <hr/>
     </div>
-    <p><small style="font-size: 16px; font-weight: bold">Premier Alliances Inc. is proud to be an Equal Opportunity/Affirmative Action Employer. 
+    <p><small style="font-size: 16px;">Premier Alliances Inc. is proud to be an Equal Opportunity/Affirmative Action Employer. 
 Qualified females, minorities, and veterans are encouraged to apply.<br/></br/>
 Premier Alliances, Inc. gives job placement preference to individuals with documented disabilities.</small></p>`;
 
