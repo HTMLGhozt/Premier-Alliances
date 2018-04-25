@@ -75,7 +75,12 @@ export const partnersText = `
   <p>
     If you are an organization that works with disabled individuals in need of 
     employment, training or educational opportunities, please contact us.
-  </p>`;
+  </p>
+  <br />
+  <br />
+  <br />
+  <br />
+  <button style="background-color: rgb(148, 130, 10)">Contact Us </button>`;
 
 export const historyText = `<p>
     Premier Alliances, Inc. has been serving and supporting the communities of Cochise County and the

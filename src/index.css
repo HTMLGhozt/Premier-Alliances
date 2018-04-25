@@ -29,6 +29,7 @@ button {
   border-radius: 10px;
   font-size: 20px;
   min-width: 130px;
+  font-family: "Gothic_Bold", CenturyGothic, AppleGothic, sans-serif; 
 }
 h4 {
   /* c 75 m 58 y 60 k 17 355955 */
@@ -38,5 +39,5 @@ h4 {
   font-size: 20px;
 }
 h3 {
-  color: rgb(187, 166, 31)
+  color: rgb(187, 166, 31);
 }
