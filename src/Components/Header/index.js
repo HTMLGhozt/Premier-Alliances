@@ -9,7 +9,7 @@ const populateClassNames = index => {
   return ([
     'main__quarter-section',
     `main__quarter-section--${[1, 2].includes(index) ? 'dark' : 'light'}`,
-    `main__quarter-section--justify-${[0, 2].includes(index) ? 'right' : 'left'}`
+    `main__quarter-section--justify-${[0, 1].includes(index) ? 'top' : 'bottom'}`
   ]).join(' ');
 };
 

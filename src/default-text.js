@@ -28,7 +28,7 @@ export const employmentText = `
     </div>
     <p><small style="font-size: 16px;">Premier Alliances Inc. is proud to be an Equal Opportunity/Affirmative Action Employer. 
 Qualified females, minorities, and veterans are encouraged to apply.<br/></br/>
-Premier Alliances, Inc. gives job placement preference to individuals with documented disabilities.</small></p>`;
+Premier Alliances, Inc. gives job placement preference to<br/>individuals with documented disabilities.</small></p>`;
 
 export const communityText = `
   <p>

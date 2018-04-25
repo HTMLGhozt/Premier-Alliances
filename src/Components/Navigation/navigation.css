@@ -13,8 +13,8 @@
   box-sizing: border-box;
 }
 .navigation > a {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 22px;
+  font-family: 'gothic_bold', CenturyGothic, AppleGothic, sans-serif;
   text-decoration: none;
 }
 .navigation > a {

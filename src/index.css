@@ -1,15 +1,23 @@
 @font-face {
-  font-family: 'Century Gothic';
+  font-family: 'Gothic';
   src: url('./Fonts/centurygothic-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gothic_bold';
+  src: url('./Fonts/centurygothicbold-webfont.woff') format('woff');
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family:  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-family: "Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gothic_Bold", CenturyGothic, AppleGothic, sans-serif;
 }
 p {
   font-weight: 100;
+  font-size: 19px;
 }
 button {
   background-color: #3b5b7f;
@@ -26,7 +34,6 @@ h4 {
   /* c 75 m 58 y 60 k 17 355955 */
   color: #26403d;
   text-transform: uppercase;
-  font-weight: 1000;
   margin-bottom: 3px;
   font-size: 20px;
 }
