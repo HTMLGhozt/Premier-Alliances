@@ -54,7 +54,7 @@
   margin-bottom: 10px;
 }
 .main__footer__text > p {
-  margin-top: 0;
+  /* margin-top: ; */
   color: rgb(120, 41, 28);
 }
 .main__footer__text > a {
@@ -72,15 +72,16 @@
 }
 /* Make it a marquee */
 .marquee {
-  width: 100vw;
+  width: 98vw;
   margin: 0 auto;
+  padding: 0;
   overflow: hidden;
   white-space: nowrap;
   box-sizing: border-box;
   animation: marquee 20s linear infinite;
   position: absolute;
   z-index: 999;
-  bottom: 180px;
+  bottom: 30%;
   color: dimgray;
   font-style: italic;
 }

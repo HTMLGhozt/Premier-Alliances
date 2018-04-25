@@ -1,3 +1,9 @@
 .footer > div {
   flex: 1;
 }
+.footer p {
+  font-size: 12.5px;
+}
+.footer {
+  padding-bottom: 10px;
+}
