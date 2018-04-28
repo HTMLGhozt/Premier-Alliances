@@ -39,7 +39,7 @@
   height: 20%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .main { margin-bottom: 20px;}
 .main__footer__text {
@@ -75,6 +75,7 @@
   width: 98vw;
   margin: 0 auto;
   padding: 0;
+  font-size: 18px;
   overflow: hidden;
   white-space: nowrap;
   box-sizing: border-box;

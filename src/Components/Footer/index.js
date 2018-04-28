@@ -18,13 +18,14 @@ export default props => (
       <p>Copyright © 2018 Premier Alliances, Inc. All rights reserved.</p>
       <p>
         Office: 520.335.0373<br/>
-        1993 Frontage Rd. | Ste. 104<br/>
-        Sierra Vista, AZ 85635<br/>
+        1556 Naco Highway<br/>
+        Bisbee, AZ 85603<br/>
         info@premieralliances.org<br/>
       </p>
       </div>
     </div>
-    <div>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+      <button>Donate</button>
       {/* <p>Copyright © 2018 Premier Alliances, Inc. All rights reserved.</p>
       <p>
         Office: 520.335.0373<br/>

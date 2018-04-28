@@ -76,6 +76,15 @@ export const partnersText = `
     If you are an organization that works with disabled individuals in need of 
     employment, training or educational opportunities, please contact us.
   </p>
+  
+  <h3>AbilityOne</h3>
+  <p>Premier Alliances maintains federal contracts with the Army and U.S. Customs and Border Protection. READ MORE</p>
+
+  <h3>SourceAmerica</h3>
+  <p>This resource for nonprofits ensures we have the support we need to compete for federal contracts. READ MORE</p>
+
+  <h3>Sierra Vista Unified School District</h3>
+  <p>Premier Alliances supports the special education efforts of our local schools via donations and event sponsorship. READ MORE</P>
   <br />
   <br />
   <br />
