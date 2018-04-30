@@ -24,8 +24,9 @@ export default props => (
       </p>
       </div>
     </div>
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
       <button>Donate</button>
+      <button style={{ backgroundColor: 'rgb(148, 130, 10)' }}>Contact Us </button>
       {/* <p>Copyright © 2018 Premier Alliances, Inc. All rights reserved.</p>
       <p>
         Office: 520.335.0373<br/>

@@ -13,9 +13,9 @@ export default () => (
     </div>
     <div>
       <span className="logos">
-        <i class="fab fa-facebook-square fa-3x"></i>
-        <i class="fab fa-twitter-square fa-3x"></i>
-        <i class="fab fa-linkedin fa-3x"></i>
+        <i className="fab fa-facebook-square fa-3x"></i>
+        <i className="fab fa-twitter-square fa-3x"></i>
+        <i className="fab fa-linkedin fa-3x"></i>
       </span>
       <br />
       <a href="https://www.abilityone.gov/">

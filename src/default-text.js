@@ -41,14 +41,13 @@ export const communityText = `
     to individuals with documented disabilities.
   </p>
   <p>
-    Premier Alliances posts new job listings frequently and is constantly 
-    updating the web site with new information.
+    Premier Alliances posts new job listings frequently and regularly updates the website with new information.
   </p>
 
   <button>contact us</button>
   <p> 
-    to find out how you can be a part of <br/>
-    the Premier Alliances Team.
+    to find out how you can be a part <br/>
+    of the Premier Alliances Team.
   </p>
   <h5>AbilityOne<small><sup>®</sup></small> Program</h5>
   <p>
@@ -56,7 +55,7 @@ export const communityText = `
     or have other significant disabilities find employment by working within a 
     national network of over 600 Nonprofit Agencies that sell products and 
     services to the U.S. government. The Committee for Purchase From People Who Are Blind or Severely Disabled is the Federal agency authorized to 
-    administer the AbilityOne Program.
+    administer <br /> the AbilityOne Program.
   </p>
   <br />
   <p>Integrity is our highest priority for the AbilityOne Program.</p>`;
@@ -78,18 +77,16 @@ export const partnersText = `
   </p>
   
   <h3>AbilityOne</h3>
-  <p>Premier Alliances maintains federal contracts with the Army and U.S. Customs and Border Protection. READ MORE</p>
+  <p>Premier Alliances maintains federal contracts with the Army and U.S. Customs and Border Protection.</p>
+  <span><a href="https://www.abilityone.gov/">READ MORE</a></span>
 
   <h3>SourceAmerica</h3>
-  <p>This resource for nonprofits ensures we have the support we need to compete for federal contracts. READ MORE</p>
+  <p>This resource for nonprofits ensures we have the support we need to compete for federal contracts.</p>
+  <span><a href="https://www.sourceamerica.org/">READ MORE</a></span>
 
   <h3>Sierra Vista Unified School District</h3>
-  <p>Premier Alliances supports the special education efforts of our local schools via donations and event sponsorship. READ MORE</P>
-  <br />
-  <br />
-  <br />
-  <br />
-  <button style="background-color: rgb(148, 130, 10)">Contact Us </button>`;
+  <p>Premier Alliances supports the special education efforts of our local schools via donations and event sponsorship.</p>
+  <span><a href="http://www.svusd68.org/">READ MORE</a></span>`;
 
 export const historyText = `<p>
     Premier Alliances, Inc. has been serving and supporting the communities of Cochise County and the
