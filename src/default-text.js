@@ -61,32 +61,24 @@ export const communityText = `
   <p>Integrity is our highest priority for the AbilityOne Program.</p>`;
 
 export const partnersText = `
-  <h3>Partnerships Throughout the Community</h3>
-  <p>
-    Premier Alliances, Inc. is joining forces with local educational institutions,
-    including community colleges and high schools. We offer internships,
-    training and employment opportunities to individuals with significant disabilities.
-    In the future we will work through our partners to offer scholarships for
-    individuals with documented disabilities to attend college or trade school.
-  </p>
+  <p style="font-size: 16px">Beyond our services to our employees, Premier Alliances, Inc. believes that community
+  outreach and partnerships are the most effective ways to create a community that is inclusive
+  and full of opportunities, not obstacles, for people with additional needs. We continuously look
+  for ways to work closely with local governments, private businesses, our nonprofit partners and other service
+  organizations on projects, events, activities and programs which align with our mission: Improving the lives of people with disabilities.</p>
 
-  <p>Come back to this page periodically to get more details!</p>
-  <p>
-    If you are an organization that works with disabled individuals in need of 
-    employment, training or educational opportunities, please contact us.
-  </p>
   
-  <h3>AbilityOne</h3>
+  <a href="https://www.abilityone.gov/"><h3>AbilityOne</h3></a>
   <p>Premier Alliances maintains federal contracts with the Army and U.S. Customs and Border Protection.</p>
-  <span><a href="https://www.abilityone.gov/">READ MORE</a></span>
+  <span>READ MORE</span>
 
-  <h3>SourceAmerica</h3>
+  <a href="https://www.sourceamerica.org/"><h3>SourceAmerica</h3></a>
   <p>This resource for nonprofits ensures we have the support we need to compete for federal contracts.</p>
-  <span><a href="https://www.sourceamerica.org/">READ MORE</a></span>
+  <span>READ MORE</span>
 
-  <h3>Sierra Vista Unified School District</h3>
+  <a href="http://www.svusd68.org/"><h3>Sierra Vista Unified School District</h3></a>
   <p>Premier Alliances supports the special education efforts of our local schools via donations and event sponsorship.</p>
-  <span><a href="http://www.svusd68.org/">READ MORE</a></span>`;
+  <span>READ MORE</span>`;
 
 export const historyText = `<p>
     Premier Alliances, Inc. has been serving and supporting the communities of Cochise County and the
